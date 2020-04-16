@@ -19,9 +19,11 @@ body {
   background-color: #aeaeae;
   flex-basis: 25%;
   transition: all .2s;
+  filter: grayscale(100%);
 }
 .item:hover {
   flex-basis: 50%;
+  filter: none;
 }
 .item-1{
   background: url(../img/1.jpg) no-repeat center center;
