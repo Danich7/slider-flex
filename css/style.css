@@ -24,18 +24,31 @@ body {
   flex-basis: 100%;
 }
 .item-1{
-  background: url(../img/eezhFGUjKak.jpg) no-repeat center center;
+  background: url(../img/1.jpg) no-repeat center center;
   background-size: cover;
 }
 .item-2{
-  background: url(../img/MJkF3sUpA5w.jpg) no-repeat center center;
+  background: url(../img/2.jpg) no-repeat center center;
   background-size: cover;
 }
 .item-3{
-  background: url(../img/ntONqkW9CIE.jpg) no-repeat center center;
+  background: url(../img/3.jpg) no-repeat center center;
   background-size: cover;
 }
 .item-4{
-  background: url(../img/yR4WUirW6Cg.jpg) no-repeat center center;
+  background: url(../img/4.jpg) no-repeat center center;
   background-size: cover;
+}
+
+@media (max-width: 640px) {
+  .slider {
+    flex-flow: column;
+    height: 100vh;
+  }
+  .item {
+    width: 100%;
+  }
+  .item:hover {
+    flex-grow: 30%;
+  }
 }
