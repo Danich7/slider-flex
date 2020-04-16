@@ -21,7 +21,7 @@ body {
   transition: all .2s;
 }
 .item:hover {
-  flex-basis: 100%;
+  flex-basis: 50%;
 }
 .item-1{
   background: url(../img/1.jpg) no-repeat center center;
@@ -49,6 +49,6 @@ body {
     width: 100%;
   }
   .item:hover {
-    flex-grow: 30%;
+    flex-grow: 70%;
   }
 }
